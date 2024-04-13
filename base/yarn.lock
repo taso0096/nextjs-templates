@@ -1466,6 +1466,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"base@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "base@workspace:."
+  dependencies:
+    "@types/node": "npm:^20"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
+    "@vanilla-extract/css": "npm:^1.14.2"
+    "@vanilla-extract/next-plugin": "npm:^2.4.0"
+    eslint: "npm:^8"
+    eslint-config-next: "npm:14.1.4"
+    eslint-plugin-react: "npm:^7.34.1"
+    eslint-plugin-react-hooks: "npm:^4.6.0"
+    next: "npm:14.1.4"
+    prettier: "npm:^3.2.5"
+    react: "npm:^18"
+    react-dom: "npm:^18"
+    typescript: "npm:^5"
+  languageName: unknown
+  linkType: soft
+
 "big.js@npm:^5.2.2":
   version: 5.2.2
   resolution: "big.js@npm:5.2.2"
@@ -3778,27 +3799,6 @@ __metadata:
   checksum: 10c0/7576d7af913f6e24997126b1b13c9bfd0de926ecce72b16944f9f9ba221a3563d3a16b13d7aad7774a428462534afe71879ea0ca5ad80cc9075f08773d13a3b1
   languageName: node
   linkType: hard
-
-"nextjs-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nextjs-template@workspace:."
-  dependencies:
-    "@types/node": "npm:^20"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
-    "@vanilla-extract/css": "npm:^1.14.2"
-    "@vanilla-extract/next-plugin": "npm:^2.4.0"
-    eslint: "npm:^8"
-    eslint-config-next: "npm:14.1.4"
-    eslint-plugin-react: "npm:^7.34.1"
-    eslint-plugin-react-hooks: "npm:^4.6.0"
-    next: "npm:14.1.4"
-    prettier: "npm:^3.2.5"
-    react: "npm:^18"
-    react-dom: "npm:^18"
-    typescript: "npm:^5"
-  languageName: unknown
-  linkType: soft
 
 "node-gyp@npm:latest":
   version: 10.1.0
