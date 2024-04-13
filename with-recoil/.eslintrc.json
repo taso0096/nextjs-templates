@@ -1,0 +1,4 @@
+{
+  "extends": "next/core-web-vitals",
+  "plugins": ["eslint-plugin-react", "eslint-plugin-react-hooks"]
+}
